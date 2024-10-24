@@ -1,7 +1,19 @@
 body {
-  background-color: black;
+  background-color: F8EDEB;
 }
 
 h1 {
-  color: blue;
+  color: D8E2DC;
+}
+
+p {
+  color: FFD7BA;
+}
+
+a {
+  color: FCD5CE;
+}
+
+a:hover {
+  color: FEC5BB;
 }
