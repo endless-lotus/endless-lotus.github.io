@@ -1,19 +1,19 @@
 body {
-  background-color: #f3e9d2;
+  background-color: #d6d3c9;
 }
 
 h1 {
-  color: #D8E2DC;
+  color: #2f4458;
 }
 
 p {
-  color: #FFD7BA;
+  color: #7c8078;
 }
 
 a {
-  color: #FCD5CE;
+  color: #7c8078;
 }
 
 a:hover {
-  color: #FEC5BB;
+  color: #766575;
 }
