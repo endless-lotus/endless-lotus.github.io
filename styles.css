@@ -21,6 +21,7 @@ a:hover {
 .container {
   display: flex;
   align-self: center;
+  height: 40vh;
 }
 
 img {
