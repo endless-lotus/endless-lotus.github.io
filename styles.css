@@ -22,3 +22,9 @@ a:hover {
   display: flex;
   align-self: center;
 }
+
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+}
