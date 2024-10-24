@@ -1,9 +1,9 @@
 body {
-  background-color: #efe5dc;
+  background-color: #eaf4f4;
 }
 
 p {
-  color: #7c8078;
+  color: #476d5d;
 }
 
 a:hover {
@@ -11,14 +11,26 @@ a:hover {
 }
 
 nav {
-  background-color: #7c8078;
+  background-color: #6b9080;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 h1 {
-  color: white;
+  color: #f6fff8;
+}
+
+.title {
+  flex: 2;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.links {
+  flex: 1.5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 ul {
@@ -32,14 +44,14 @@ li {
 
 li a{
   display: block;
-  color: white;
+  color: #f6fff8;
   text-align: center;
   padding: 10px 5px;
   text-decoration: none;
 }
 
 li a:hover{
-  color: #209f8c;
+  color: #e6beae;
 }
 
 .container {
