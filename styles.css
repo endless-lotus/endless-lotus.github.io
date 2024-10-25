@@ -1,5 +1,6 @@
+
 body {
-  background-color: #eaf4f4;
+  background-color: rgb(248, 246, 237);
 }
 
 p {
@@ -11,12 +12,19 @@ a:hover {
 }
 
 nav {
-  background-color: #6b9080;
+  background-color: rgba(139, 69, 19, 0.753);
   display: flex;
 }
 
 h1 {
-  color: #f6fff8;
+  color: sandybrown;
+  font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 29px;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
 }
 
 .title {
@@ -43,15 +51,19 @@ li {
 }
 
 li a{
+  font-family: "Abril Fatface", serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
   display: block;
-  color: #f6fff8;
+  color: rgb(252, 180, 117);
   text-align: center;
   padding: 10px 5px;
-  text-decoration: none;
 }
 
 li a:hover{
-  color: #e6beae;
+  color: saddlebrown;
 }
 
 .container {
@@ -59,6 +71,7 @@ li a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 2px double red;
 }
 
 img {
